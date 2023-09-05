@@ -184,7 +184,7 @@ Calendar._ekEventToJSEvent = (ekEvent: EKEvent) => {
   }
 
   let recurrence: Recurrence;
-  if (ekEvent.recurrenceRules !== null) {
+  if (ekEvent.recurrenceRules !== null && Object.keys(ekEvent.recurrenceRules).length > 0) {
     // just grab the first rule as we return only one anyway
     const ekRecurrenceRule: EKRecurrenceRule = ekEvent.recurrenceRules.objectAtIndex(0);
 

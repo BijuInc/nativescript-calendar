@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-calendar",
+  "name": "@courthoang/nativescript-calendar",
   "version": "3.0.0",
   "description": "Interact with the native calendar. Add, Update, Read, you name it.",
   "main": "calendar",
